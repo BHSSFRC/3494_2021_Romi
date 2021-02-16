@@ -8,6 +8,7 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
+import edu.wpi.first.wpilibj.Timer;
 /**import edu.wpi.first.wpilibj.DriverStation;
 import frc.robot.commands.ArcadeDrive;
 import frc.robot.subsystems.Drivetrain;*/
@@ -21,7 +22,10 @@ import frc.robot.subsystems.Drivetrain;*/
 public class Robot extends TimedRobot {
   private Command m_autonomousCommand;
   private RobotContainer m_robotContainer;
-
+  /**private Timer timer;
+  private double trajectoryStartTime;
+  private double trajectoryElapsedTime;*/
+  
   /**
    * This function is run when the robot is first started up and should be used for any
    * initialization code.
